@@ -1,0 +1,31 @@
+.boxes {
+    margin: auto;
+    color:rgb(100, 100, 100);
+    margin-top: 150px;
+    background-color: rgb(247, 247, 247);
+    overflow: hidden;
+    height: fit-content;
+    max-height: 40vh;
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 5ch;
+    width: auto;
+    margin-bottom: 150px;
+}
+
+.boxes-text {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 85%;
+    padding: 50px;
+
+
+}
+
+
+.grids {
+    max-width: 40%;
+    margin: auto;
+}
+
