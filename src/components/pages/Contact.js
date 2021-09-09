@@ -4,15 +4,15 @@ import Footer from '../Footer';
 import SmallHero from '../SmallHero';
 
 
-function checkForm(form)
-{
-    if(!form.terms.checked) {
-    alert("Please indicate that you accept the Terms and Conditions");
-    form.terms.focus();
-    return false;
-  }
-  return true;
-}
+// function checkForm(form)
+// {
+//     if(!form.terms.checked) {
+//     alert("Please indicate that you accept the Terms and Conditions");
+//     form.terms.focus();
+//     return false;
+//   }
+//   return true;
+// }
 
 
 

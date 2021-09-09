@@ -21,7 +21,9 @@ const Pricing = () => {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
     
+    // eslint-disable-next-line
     const handleClick = () => setClick(!click);
+    // eslint-disable-next-line
     const closeMobileMenu = () => setClick(false);
 
     const showButton = () => {

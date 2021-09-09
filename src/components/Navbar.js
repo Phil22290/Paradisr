@@ -31,7 +31,7 @@ function Navbar() {
                 <Link to="/" className="navbar-logo"
                 onClick={closeMobileMenu}>
 
-                    PARADISR <img src="images/logoWH.png" width='6%'></img>
+                    PARADISR <img src="images/logoWH.png" alt="logo" width='6%'></img>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
